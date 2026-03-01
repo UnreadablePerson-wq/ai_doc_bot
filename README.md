@@ -113,26 +113,28 @@ python -m bot.main
 
 ## 📁 Структура проекта
 
-ai_doc_bot/
-├── bot/
-│   ├── __init__.py
-│   ├── main.py              # Точка входа
-│   ├── config.py             # Конфигурация
-│   ├── database.py           # Работа с БД
-│   ├── models.py             # Модели SQLAlchemy
-│   ├── ocr.py                # OCR обработка
-│   ├── openrouter_api.py     # OpenRouter API
-│   └── handlers/             # Обработчики команд
-│       ├── __init__.py
-│       ├── start.py          # /start и меню
-│       ├── commands.py       # Дополнительные команды
-│       ├── documents.py      # Загрузка документов
-│       └── chat.py           # Обработка вопросов
-├── temp/                      # Временные файлы
-├── .env                       # Переменные окружения
-├── requirements.txt           # Зависимости
-├── README.md                  # Документация
-└── LICENSE                    # Лицензия MIT
+```
+📦ai_doc_bot/
+├── 📂bot/
+│   ├── 📄__init__.py
+│   ├── 📄main.py              # Точка входа
+│   ├── 📄config.py             # Конфигурация
+│   ├── 📄database.py           # Работа с БД
+│   ├── 📄models.py             # Модели SQLAlchemy
+│   ├── 📄ocr.py                # OCR обработка
+│   ├── 📄openrouter_api.py     # OpenRouter API
+│   └── 📂handlers/             # Обработчики команд
+│       ├── 📄__init__.py
+│       ├── 📄start.py          # /start и меню
+│       ├── 📄commands.py       # Дополнительные команды
+│       ├── 📄documents.py      # Загрузка документов
+│       └── 📄chat.py           # Обработка вопросов
+├── 📂temp/                      # Временные файлы
+├── 📄.env                       # Переменные окружения
+├── 📄requirements.txt           # Зависимости
+├── 📄README.md                  # Документация
+└── 📄LICENSE                    # Лицензия MIT
+```
 
 ## 🤖 API и модели
 Проект использует сервис OpenRouter.ai для получения доступа к большому пулу языковых моделей. Это позволяет:
