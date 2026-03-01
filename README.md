@@ -72,6 +72,7 @@ graph TD
 * API ключ OpenRouter (от openrouter.ai)
 
 ### Пошаговая установка
+```
 1) Клонирование репозитория:
 bash
 git clone https://github.com/UnreadablePerson-wq/ai_doc_bot
@@ -110,6 +111,7 @@ DB_PASSWORD=your_password
 6) Запуск бота
 bash
 python -m bot.main
+```
 
 ## 📁 Структура проекта
 
