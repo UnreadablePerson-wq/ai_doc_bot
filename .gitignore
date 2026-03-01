@@ -1,0 +1,48 @@
+# Виртуальное окружение
+venv/
+env/
+ENV/
+.venv/
+virtualenv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Временные файлы проекта
+temp/
+*.tmp
+*.temp
+downloads/
+
+# Переменные окружения
+.env
+.env.local
+.env.*.local
+
+# Логи
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Базы данных (если используете SQLite, но у вас PostgreSQL)
+*.db
+*.sqlite3
+
+# Системные файлы
+Thumbs.db
+desktop.ini
