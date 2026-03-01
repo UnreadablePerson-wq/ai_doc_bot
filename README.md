@@ -74,15 +74,15 @@ graph TD
 ### Пошаговая установка
 1) Клонирование репозитория:
 bash
-git clone https://github.com/UnreadablePerson-wq/ai-doc-bot.git
-cd ai-doc-bot
+git clone https://github.com/UnreadablePerson-wq/ai_doc_bot
+cd ai_doc_bot
 
 2) Создание виртуального окружения:
 bash
 python -m venv venv
-# Для Windows:
+#Для Windows:
 venv\Scripts\activate
-# Для Linux/Mac:
+#Для Linux/Mac:
 source venv/bin/activate
 
 3) Установка зависимостей:
@@ -96,11 +96,11 @@ CREATE USER your_user WITH PASSWORD 'your_password';
 GRANT ALL PRIVILEGES ON DATABASE ai_doc_bot TO your_user;
 
 5) Создание файла .env :
-# Telegram
+#Telegram
 TELEGRAM_TOKEN=your_telegram_bot_token
-# OpenRouter
+#OpenRouter
 OPENROUTER_API_KEY=your_openrouter_api_key
-# Database
+#Database
 DB_HOST=localhost
 DB_PORT=5432
 DB_NAME=ai_doc_bot
