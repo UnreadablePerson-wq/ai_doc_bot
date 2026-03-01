@@ -159,4 +159,5 @@ python -m bot.main
 
 ## 👨‍💻 Автор
 GitHub: @UnreadablePerson-wq
+
 Если этот проект показался вам интересным, не забудьте поставить звезду на GitHub! ⭐
